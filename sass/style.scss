@@ -1,0 +1,52 @@
+@use 'variables';
+
+h1{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-big;
+    color: variables.$clr-white;
+}
+
+h1 span{ //Este span es para poner el background color solo en el area del texto
+    background-color: variables.$clr-light-gray;
+}
+
+h2{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-med;
+    color: variables.$clr-white;
+    font-weight: variables.$fw-light;
+}
+
+h3{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-sm;
+    color: variables.$clr-white;
+    font-weight: variables.$fw-reg;
+}
+
+p{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-base;
+    color: variables.$clr-white;
+    font-weight: variables.$fw-reg;
+}
+
+.logo{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-med;
+    font-weight: variables.$fw-bold;
+    color: variables.$clr-white;
+    background-color: variables.$clr-light-gray;
+}
+
+.basic-text{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-base;
+    color: variables.$clr-white;
+    text-decoration: none;
+}
+
+.header-margin{
+    margin-bottom: 15em;
+    margin-top:10em;
+}

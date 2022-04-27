@@ -1,0 +1,56 @@
+/*Font colors*/
+/*Font sizes*/
+/*Font family*/
+/*font weight*/
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.625rem;
+  color: #FFFFFF;
+}
+
+h1 span {
+  background-color: #515f67;
+}
+
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.875rem;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.logo {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #515f67;
+}
+
+.basic-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-margin {
+  margin-bottom: 15em;
+  margin-top: 10em;
+}
+
+/*# sourceMappingURL=style.css.map */
