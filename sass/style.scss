@@ -17,11 +17,26 @@ h2{
     font-weight: variables.$fw-light;
 }
 
+h2 span{
+    color: variables.$clr-dark-gray;
+}
+
 h3{
     font-family: variables.$ff-sans;
     font-size: variables.$fs-sm;
     color: variables.$clr-white;
     font-weight: variables.$fw-reg;
+}
+
+h4{
+    font-family: variables.$ff-sans;
+    font-size: variables.$fs-sm;
+    color: variables.$clr-white;
+    font-weight: variables.$fw-light;
+}
+
+h4 span{
+    font-weight: variables.$fw-bold;
 }
 
 p{
@@ -36,14 +51,26 @@ p{
     font-size: variables.$fs-med;
     font-weight: variables.$fw-bold;
     color: variables.$clr-white;
-    background-color: variables.$clr-light-gray;
+    text-decoration: none;
+    margin-right: 15em;
 }
+
+.logo span{
+    color: variables.$clr-light-blue;
+}
+
+.light-blue-background{ background-color: variables.$clr-light-blue;}
+.dark-gray-background{ background-color: variables.$clr-dark-gray;}
 
 .basic-text{
     font-family: variables.$ff-sans;
     font-size: variables.$fs-base;
     color: variables.$clr-white;
     text-decoration: none;
+}
+
+.basic-text span{
+    color: variables.$clr-dark-gray;
 }
 
 
@@ -53,14 +80,34 @@ p{
     margin-top:10em;
 }
 
-.section-margin{
-    margin: 7em;
+.services-padding{
+    padding: 5em;
+}
+
+.main-padding{
+    padding-left:10em ;
+    padding-right:10em ;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.thumbnail{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1em;
 }
 
 
 .top-section{
-    width: 100%;
+    //width: 100%;
     height: 100vh;
     background: url(../imgs/header.jpg) no-repeat;
     background-size: cover;
+}
+
+.author-section{
+    height: 100vh;
+    background: url(../imgs/camera.jpg) no-repeat;
+    background-size: contain;
 }
